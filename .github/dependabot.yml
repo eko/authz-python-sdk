@@ -1,0 +1,11 @@
+version: 2
+
+updates:
+- package-ecosystem: "pip"
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "05:00"
+  commit-message:
+    prefix: "[pip] "
+  open-pull-requests-limit: 10
